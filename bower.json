@@ -1,0 +1,24 @@
+{
+  "name": "Mobile-Product-App",
+  "homepage": "https://github.com/05061993/Angular-SPA",
+  "authors": [
+    "05061993 <swatidindurle@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.3.2",
+    "angularfire": "^2.1.0",
+    "bootstrap": "^3.3.7",
+    "firebase": "^3.6.2",
+    "angular": "^1.5.9"
+  }
+}
