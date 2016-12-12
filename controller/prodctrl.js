@@ -115,7 +115,13 @@ angular.module('mainApp').controller('prodctrl', function ($scope, $firebase, My
                }
            })
        })
-       $scope.filteredproduct=prodlist;
+       if(prodlist.length>0){
+         $scope.filteredproduct=prodlist;
+       }
+       else{
+         console.log('nothing is present in array prodlist');
+       }
+
        }, true);
         })
      $scope.dispSingle=function(item){
